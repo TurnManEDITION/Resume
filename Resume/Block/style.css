@@ -1,0 +1,17 @@
+.info-about-me {
+	background-color: #f6f6f6;
+	padding: 120px 0 100px;
+}
+.container {
+	max-width: auto;
+	margin: 0 auto;
+}
+.about-me-text {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+h2 {
+	font-size: 34px;
+	font-family: 'Gilroy-Bold', sans-serif;
+}
