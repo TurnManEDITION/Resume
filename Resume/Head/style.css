@@ -9,23 +9,6 @@
 .nav-list {
 	justify-content: space-between;
 }
-.flex {
-	display: flex;
-}
-ul {
-	list-style-type: none;
-	padding: 0;
-}
-.nav-item {
-	position: relative;
-}
-.nav-link {
-	font-family: 'Gilroy-Bold', sans-serif;
-	font-style: 18px;
-	font-weight: bold;
-	transition: color 1s ease-in-out;
-	color: #828282;
-}
 .nav-link:hover {
 	color:  black;
 }
@@ -42,6 +25,18 @@ ul {
 }
 .nav-link:hover::after {
 	transform: scaleX(1);
+}
+.flex {
+	display: flex;
+}
+.nav-item {
+	position: relative;
+}
+.nav-link {
+	font-style: 18px;
+	font-weight: bold;
+	transition: color 1s ease-in-out;
+	color: #828282;
 }
 .nav-link:hover {
 	color:  black;

@@ -3,9 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="normalize.css">
-	<title>Resumi</title>
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+	/>	
+	<link rel="stylesheet" href="style.css">
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<title>Resume</title>
 </head>
 <body>
 	
@@ -15,7 +22,7 @@
 				<ul class="nav-list flex">
 					<li class="nav-item"><a href="" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="" class="nav-link">About me</a></li>
-					<li class="nav-item"><a href="" class="nav-link">skills</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Skills</a></li>
 					<li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
 					<li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
 					<li class="nav-item"><a href="https://github.com/TurnManEDITION" class="nav-link">GitHub</a></li>
@@ -23,7 +30,7 @@
 			</nav>
 		</div>
 	</header>
-	
+
 <!--БЛОК--> 	<section class="intro">
 		<div class="container">
 			<div class="intro-description flex">
@@ -50,7 +57,17 @@
 					</div>
 <!--Менять язык-->	</div>		
 			<div class="intro-img">
-				<img src="img/hero/hero.png" alt="TiMoED">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="img/hero/1.png" alt=""></div>
+						<div class="swiper-slide"><img src="img/hero/2.png" alt=""></div>
+						<div class="swiper-slide"><img src="img/hero/3.png" alt=""></div>
+					</div>
+					<div class="swiper-pagination">
+				</div>
+				
+					
+				</div>
 			</div>
 		</div>
 	</section>
@@ -58,8 +75,8 @@
 		<div class="container">
 			<div class="about-me-text">
 			<h2>About me</h2>
-			<p>hello, my name Andrey - I Programmist</p><br>
-			<p>I contuine Arkhangelsk</p><br>
+			<p>Hello, ma name Andrey - I programmist</p><br>
+			<p>I live in Arkhangelsk</p><br>
 			<p>GG</p><br></div>
 		</div>
 	</section>
@@ -67,7 +84,7 @@
 		<section class="skills">
 		<div class="container">
 			<h2 class="skills-title-block">Skills</h2>
-			<p class="skills-descr">I HAVE SKILLS:</p>
+			<p class="skills-descr">I have the skills:</p>
 			<ul class="list-skills flex">
 				<li class="item-skills">
 				<img src="img/skills/3.png" alt="html" class="skill-img">
@@ -118,11 +135,11 @@
 	</section>
 <!--!--><section class="portfolio">
 			<div class="container">
-				<h2 class="portfolio-title">porfolio</h2>
+				<h2 class="portfolio-title">Portfolio</h2>
 			<ul class="portfolio-list">
 					<li class="portfolio-item">
 						<img src="img/portfolio/1.png" alt="" class="portfolio-img">
-						<p class="portfolio-descr">Online fashion store - Homepage</p>
+						<p class="portfolio-descr">Online Fashion Clothing store - Home page</p>
 					</li>
 					<li class="portfolio-item">
 						<img src="img/portfolio/2.png" alt="" class="portfolio-img">
@@ -138,22 +155,22 @@
 			<footer>
 				<div class="container">
 					<h2 class="contacts-title">Contacts</h2>
-					<p class="contacts-descr">Want to know more or just chat?<br>
-					You are welcome!</p>
+					<p class="contacts-descr">Do you want to learn more or just chat?<br>
+					Welcome!</p>
 						<a href="mailto:figshonproduction@gmail.com" class="contacts-link">
-							Send message!</a>
+							Message"@"</a>
 					<ul class="contacts-list flex">
 						<li class="contacts-item"><a href="" class="conacts-message"><img src="img/icons/1.png" alt=""></a></li>
 						<li class="contacts-item"><a href="" class="conacts-message"><img src="img/icons/2.png" alt=""></a></li>
 						<li class="contacts-item"><a href="" class="conacts-message"><img src="img/icons/3.png" alt=""></a></li>
 						<li class="contacts-item"><a href="" class="conacts-message"><img src="img/icons/4.png" alt=""></a></li>
 					</ul>
-					<p class="contacts-message-descr">Like me on <br>
+					<p class="contacts-message-descr">I on: <br>
 													LinkedIn, Instagram, Behance, Dribble</p>
 				</div>
 			</footer>
+			<script src='/scripts/script.js'></script>
 	
 <!--!-->
-
 </body>
 </html>

@@ -253,3 +253,12 @@ input:-ms-input-placeholder {
 	text-align: center;
 	color: #828282;
 }
+.swiper {
+	width: 100%;
+}
+.swiper-pagination {
+	position: static;
+}
+.swiper-pagination-bullet-active {
+	background-color: #070707;
+}

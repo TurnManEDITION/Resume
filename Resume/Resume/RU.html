@@ -3,8 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="normalize.css">
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+	/>	
+	<link rel="stylesheet" href="style.css">
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<title>Резюме</title>
 </head>
 <body>
@@ -50,7 +57,17 @@
 					</div>
 <!--Менять язык-->	</div>		
 			<div class="intro-img">
-				<img src="img/hero/hero.png" alt="TiMoED">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="img/hero/1.png" alt=""></div>
+						<div class="swiper-slide"><img src="img/hero/2.png" alt=""></div>
+						<div class="swiper-slide"><img src="img/hero/3.png" alt=""></div>
+					</div>
+					<div class="swiper-pagination">
+				</div>
+				
+					
+				</div>
 			</div>
 		</div>
 	</section>
@@ -122,15 +139,15 @@
 			<ul class="portfolio-list">
 					<li class="portfolio-item">
 						<img src="img/portfolio/1.png" alt="" class="portfolio-img">
-						<p class="portfolio-descr">Online fashion store - Homepage</p>
+						<p class="portfolio-descr">Интернет-магазин модной одежды - Главная страница</p>
 					</li>
 					<li class="portfolio-item">
 						<img src="img/portfolio/2.png" alt="" class="portfolio-img">
-						<p class="portfolio-descr">Reebok Store - Concept</p>
+						<p class="portfolio-descr">Магазин Reebok - Концепция</p>
 					</li>
 					<li class="portfolio-item">
 						<img src="img/portfolio/3.png" alt="" class="portfolio-img">
-						<p class="portfolio-descr">Braun Landing Page - Concept</p>
+						<p class="portfolio-descr">Целевая страница Braun - Концепция</p>
 					</li>
 				</ul>
 			</div>
@@ -138,8 +155,8 @@
 			<footer>
 				<div class="container">
 					<h2 class="contacts-title">Контакты</h2>
-					<p class="contacts-descr">Want to know more or just chat?<br>
-					You are welcome!</p>
+					<p class="contacts-descr">Хотите узнать больше или просто поболтать?<br>
+					Добро пожаловать!</p>
 						<a href="mailto:figshonproduction@gmail.com" class="contacts-link">
 							Отправить"@"</a>
 					<ul class="contacts-list flex">
@@ -148,10 +165,11 @@
 						<li class="contacts-item"><a href="" class="conacts-message"><img src="img/icons/3.png" alt=""></a></li>
 						<li class="contacts-item"><a href="" class="conacts-message"><img src="img/icons/4.png" alt=""></a></li>
 					</ul>
-					<p class="contacts-message-descr">Like me on <br>
+					<p class="contacts-message-descr">Я на: <br>
 													LinkedIn, Instagram, Behance, Dribble</p>
 				</div>
 			</footer>
+			<script src='/scripts/script.js'></script>
 	
 <!--!-->
 </body>
